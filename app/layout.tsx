@@ -13,7 +13,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div>
+          -{" "}
+          <a
+            href="https://github.com/bcgov/HOUS-permit-portal/blob/63132c19b3da4f4ec2d7bf39a2fa20ffeec01572/app/frontend/components/shared/editor/custom-extensions/image-blot.ts#L6"
+            className="text-blue-500 hover:text-blue-700 underline"
+          >
+            https://github.com/bcgov/HOUS-permit-portal/blob/63132c19b3da4f4ec2d7bf39a2fa20ffeec01572/app/frontend/components/shared/editor/custom-extensions/image-blot.ts#L6
+          </a>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

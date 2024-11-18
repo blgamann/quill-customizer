@@ -1,0 +1,124 @@
+.ql-editor {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 2rem !important;
+}
+
+.custom-image {
+  transition: opacity 0.3s, border 0.2s;
+}
+
+.custom-image:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.ql-editor img {
+  cursor: pointer;
+  transition: border 0.2s;
+}
+.ql-editor img.selected {
+  border: 2px solid #2563eb;
+}
+
+.ql-editor img {
+  max-width: 50%;
+  border-radius: 3px;
+  margin: 0.5em 0;
+}
+
+.ql-editor h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.ql-editor h2 {
+  font-size: 1.875em;
+  font-weight: 600;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.ql-editor h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.ql-editor p {
+  margin-bottom: 0.5em;
+  line-height: 1.75;
+}
+
+.ql-editor ul {
+  margin-top: 0.2em !important;
+  margin-bottom: 0.2em !important;
+  padding-left: 1.4em !important;
+}
+
+.ql-editor li {
+  margin-bottom: 0.3em !important;
+  padding-left: 0.2em !important;
+  line-height: 1.75;
+}
+
+.ql-editor ul > li::before {
+  font-size: 1.4em !important;
+  content: "•" !important;
+  color: rgb(55, 53, 47) !important;
+}
+
+.ql-editor blockquote {
+  border-left: 3px solid rgba(55, 53, 47, 0.16) !important;
+  padding-left: 1em !important;
+  margin: 0.5em 0 !important;
+  color: rgba(55, 53, 47, 0.8);
+}
+
+.ql-editor pre.ql-syntax {
+  background: rgb(247, 246, 243) !important;
+  border-radius: 3px;
+  padding: 1em !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  font-size: 0.875em;
+}
+
+.ql-editor code {
+  background: rgba(135, 131, 120, 0.15);
+  color: #eb5757;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.875em;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+}
+
+.ql-editor a {
+  text-decoration: underline;
+  text-decoration-color: rgba(55, 53, 47, 0.4);
+  transition: text-decoration-color 0.2s ease;
+}
+
+.ql-editor a:hover {
+}
+
+.ql-editor .ql-check {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(55, 53, 47, 0.35);
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+.ql-editor hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(55, 53, 47, 0.16);
+  margin: 2em 0;
+}
